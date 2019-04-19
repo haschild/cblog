@@ -9,4 +9,4 @@ npm link
 ### step3
 执行 cblog preview example 查看当前页面
 ### step4
-执行 cblog help 查看帮助文档；或者直接查看bin/cblog文件
+执行 cblog help 查看帮助文档；或者直接查看bin/cblog文件 
