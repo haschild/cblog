@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "宋体";
+            font-family: 14px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .component {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>{{config.title || escape}}</h1>
+    <div class="component">
+        {%for post in posts%}
+        <li>
+            <span>{{post.date}}</span>
+            <a href="{{post.url}}" title="{{post.url}}">
+                <span>{{post.title}}</span>
+            </a>
+        </li>
+        {%endfor%}
+    </div>
+
+</body>
+
+</html>

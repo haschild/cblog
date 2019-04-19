@@ -1,0 +1,25 @@
+{
+  "name": "cblog",
+  "version": "1.0.0",
+  "description": "博客脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhoulin",
+  "license": "MIT",
+  "bin": {
+    "cblog": "./bin/cblog"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "markdown-it": "^8.4.2",
+    "moment": "^2.24.0",
+    "open": "^6.1.0",
+    "rd": "^2.0.1",
+    "serve-static": "^1.13.2",
+    "swig": "^1.4.2"
+  }
+}
