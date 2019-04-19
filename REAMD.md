@@ -2,7 +2,7 @@
 https://github.com/leizongmin/book-nodejs-in-action-season-2/tree/master/static-blog/lib
 
 ### step1
-npm install --save
+npm install
 ### step2
 npm link 
 这会将当前的命令行 cblog 映射到全局
