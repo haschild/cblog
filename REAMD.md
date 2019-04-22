@@ -10,3 +10,7 @@ npm link
 执行 cblog preview example 查看当前页面
 ### step4
 执行 cblog help 查看帮助文档；或者直接查看bin/cblog文件 
+
+
+### 插件的说明
+* iconv-lite 可以转义文件内容格式。
