@@ -38,7 +38,10 @@ program
     //     console.log("create %s, output %s", dir, option.output);
 
     // }
-    .action(require('../lib/cmd_build'));
+    .action(() => {
+
+        require('../lib/cmd_build')
+    });
 
 
 program.parse(process.argv)
