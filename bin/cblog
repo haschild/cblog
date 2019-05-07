@@ -1,4 +1,5 @@
-#!/usr/bin/env node  // 这句话是置顶的，注意单词别写错了。
+#!/usr/bin/env node
+// 这句话是置顶的，注意单词别写错了。
 var program = require("commander");
 // 命令版本号
 program.version("0.0.1");
