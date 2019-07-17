@@ -12,7 +12,11 @@ let md = new markdownIt({
 let rd = require("rd");
 /**
  * 渲染模板
+<<<<<<< HEAD
+ * @param {*} file 显 示 内 容html路径
+=======
  * @param {*} file 显  示内容   html路径
+>>>>>>> e151c87cb314ba33bf16c625518873f45254ddc8
  * @param {*} data 配置显示数据
  */
 function renderFile(file, data) {
