@@ -17,7 +17,7 @@
     "fs-extra": "^7.0.1",
     "iconv-lite": "^0.4.24",
     "markdown-it": "^8.4.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "open": "^6.1.0",
     "rd": "^2.0.1",
     "serve-static": "^1.13.2",
