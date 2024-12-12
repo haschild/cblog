@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "commander": "^2.20.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs-extra": "^7.0.1",
     "iconv-lite": "^0.4.24",
     "markdown-it": "^8.4.2",
